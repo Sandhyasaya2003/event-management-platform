@@ -1,0 +1,57 @@
+header {
+    background-color: #fff;
+    padding: 15px 0;
+  
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      .navbar-brand img {
+        width: 150px; // Adjust based on your design
+      }
+  
+      .nav-links {
+        display: flex;
+        list-style: none;
+  
+        li {
+          margin-left: 20px;
+  
+          a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            transition: color 0.3s ease;
+  
+            &:hover {
+              color: #007bff; // Customize this color
+            }
+          }
+        }
+      }
+  
+      .nav-buttons {
+        .btn {
+          padding: 10px 20px;
+          border-radius: 5px;
+          margin-left: 10px;
+          text-decoration: none;
+          color: white;
+          background-color: #007bff;
+  
+          &.login {
+            background-color: transparent;
+            border: 1px solid #007bff;
+            color: #007bff;
+  
+            &:hover {
+              background-color: #007bff;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+  
